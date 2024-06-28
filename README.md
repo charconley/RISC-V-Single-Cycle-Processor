@@ -1,5 +1,5 @@
 # RISC-V-Single-Cycle-Processor Overview
-The aim of this project is to learn Verilog and learn the basics of CPU architecture. Using Verilogm, I implemented a RISC-V architecture to create a 32-bit, single-cycle processor that can perform 20 operations. The diagram linked demonstrates the datapath I followed, omitting the control modules.
+The aim of this project is to learn Verilog and learn the basics of CPU architecture. Using Verilogm, I implemented a RISC-V architecture to create a 32-bit, single-cycle processor that can perform 20 operations. The diagram linked demonstrates the datapath I followed, omitting the control modules. ![Alt text](datapath.png)
 # Processor.v
 For the organization, I created three top-level modules; datapath.v, ALUController.v, and Controller.v. The highest-level module, processor.v, instantiates these three modules, defining the flow of control and data paths between the components
 # ALUController.v
